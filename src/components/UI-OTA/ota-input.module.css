@@ -1,0 +1,7 @@
+._ {
+  @apply flex flex-row gap-1 bg-surface border-[1px] border-background rounded-lg w-full p-1.5;
+}
+
+._ input {
+  @apply text-sm outline-none w-full;
+}

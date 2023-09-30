@@ -1,0 +1,3 @@
+.selected {
+  @apply font-semibold bg-scaffoldBackgroundColor border-secondary text-primary border-2;
+}

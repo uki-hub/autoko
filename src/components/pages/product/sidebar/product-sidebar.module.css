@@ -1,0 +1,5 @@
+.promo {
+  @apply flex flex-col pl-2 py-1 bg-no-repeat bg-contain min-w-[80%];
+  background-image: url("https://assets.tokopedia.net/assets-tokopedia-lite/v2/zeus/kratos/c0c8b6b0.svg");
+  background-position: 150%;
+}

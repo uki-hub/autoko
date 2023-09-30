@@ -1,0 +1,4 @@
+.card {
+    @apply w-full h-full;
+    height: 220px;
+}

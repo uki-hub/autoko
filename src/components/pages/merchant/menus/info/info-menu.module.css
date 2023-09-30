@@ -1,0 +1,4 @@
+._ {
+  @apply grid gap-2 text-sm;
+  grid-template-columns: 25% 1% auto;
+}

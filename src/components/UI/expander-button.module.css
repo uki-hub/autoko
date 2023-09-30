@@ -1,0 +1,13 @@
+._ {
+  @apply cursor-pointer;
+}
+
+.__ {
+  transform: rotate(180deg);
+  transition: transform 0.2s ease 0s;
+}
+
+.___ {
+  transform: rotate(0deg);
+  transition: transform 0.2s ease 0s;
+}

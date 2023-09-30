@@ -1,0 +1,10 @@
+/* desc */
+
+.wrap {
+  @apply h-[21rem];
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 16;
+  -webkit-box-orient: vertical;
+}

@@ -1,0 +1,17 @@
+/* grid wrapper  */
+._ {
+  height: 450px;
+  background: white;
+}
+
+@media (max-width: 1024px) {
+  ._ {
+    height: 300px;
+    background: white;
+  } 
+}
+
+/* grid */
+.__ {
+  @apply grid grid-flow-row-dense gap-2 grid-cols-5 grid-rows-5 h-full;
+}

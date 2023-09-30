@@ -1,0 +1,7 @@
+._ {
+  @apply !rounded-xl !p-0;
+}
+
+._ img {
+  @apply h-36 w-full object-fill sm:h-28;
+}

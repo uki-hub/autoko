@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  ::-webkit-scrollbar {
+    @apply w-1.5;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    @apply bg-transparent;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    @apply rounded-sm bg-gray-200;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-gray-300;
+  }
+}
+
+@layer components {
+  .ota-input {
+    @apply block outline-none bg-surface border-2 border-background text-sm rounded-lg w-full p-1.5 focus:border-secondary;
+  }
+}
+
+@layer utilities {
+  .focus-border {
+    @apply border-secondary;
+  }
+
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .cursor-pointer-all {
+    cursor: pointer !important;
+  }
+
+  .cursor-pointer-all * {
+    cursor: pointer !important;
+  }
+}

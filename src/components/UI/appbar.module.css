@@ -1,0 +1,73 @@
+/* logo */
+._ {
+  @apply w-2/12 px-1 h-full bg-no-repeat sm:hidden;
+  background-image: url("https://ecs7.tokopedia.net/assets-tokopedia-lite/v2/zeus/production/e5b8438b.svg");
+  background-size: 175px;
+  background-position: 0 50%;
+}
+
+/* search bar */
+.__ {
+  @apply flex flex-row gap-4 items-center font-semibold w-7/12 !text-primaryVariant pr-10 sm:w-8/12 sm:pr-2;
+}
+
+/* icon bar */
+.___ {
+  @apply w-1/12 flex flex-row gap-4 cursor-pointer sm:w-3/12;
+}
+
+/* icon badge */
+.___ .badge {
+  min-width: 20px;
+  min-height: 20px;
+  color: var(--NN0,#FFFFFF);
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 1.6;
+  text-align: center;
+  background-color: var(--RN600,#E02954);
+  border: 2px solid var(--NN0,#FFFFFF);
+  border-radius: 18px;
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  /* transform: translate(10%, -8%); */
+  padding: 0px 4px;
+}
+
+.___ div {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  background-image: url(https://assets.tokopedia.net/assets-tokopedia-lite/v2/zeus/kratos/8edb7831.svg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+/* Cart icon */
+.___ .cart {
+  background-position: 0 0;
+}
+
+/* Notif icon */
+.___ .notif {
+  background-position: 40% 40%;
+}
+
+/* Chat icon */
+.___ .chat {
+  background-position: 20% 20%;
+}
+
+/* Account */ 
+.____ {
+  @apply w-2/12 h-full flex flex-row gap-2 justify-end items-center sm:p-0 sm:w-1/12;
+}
+
+.____ > div  {
+  @apply flex flex-row gap-2 items-center w-32 rounded-lg p-2 sm:p-0 sm:w-auto;
+}
+
+.____ .pic {
+  @apply w-7 h-7 rounded-full bg-gray-400;
+}

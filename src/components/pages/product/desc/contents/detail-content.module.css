@@ -1,0 +1,8 @@
+._ {
+    @apply grid grid-cols-3 gap-2 text-start;
+    grid-template-columns: 22% 1% auto;
+}
+
+._ label {
+    @apply font-semibold text-secondary;
+}

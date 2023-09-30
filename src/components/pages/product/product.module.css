@@ -1,0 +1,5 @@
+/* grid wrapper */
+._ {
+    @apply relative grid gap-5 w-full; 
+    grid-template-columns: 35% 40% auto;
+}
